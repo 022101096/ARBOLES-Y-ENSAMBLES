@@ -1,0 +1,4 @@
+modelo,roc_auc,precision_maligno,recall_maligno,f1_maligno,exactitud,exactitud_balanceada,verdaderos_negativos,falsos_positivos,falsos_negativos,verdaderos_positivos,mejor_roc_auc_cv,tiempo_ajuste_segundos
+CART,0.975033,1.000000,0.928571,0.962963,0.973684,0.964286,72,0,3,39,0.955573,2.307484
+Random Forest,0.996032,1.000000,0.928571,0.962963,0.973684,0.964286,72,0,3,39,0.989886,303.949206
+XGBoost,0.991733,1.000000,0.928571,0.962963,0.973684,0.964286,72,0,3,39,0.994221,44.590818

@@ -1,0 +1,37 @@
+{
+  "CART": {
+    "best_params": {
+      "min_samples_split": 15,
+      "min_samples_leaf": 2,
+      "max_depth": null,
+      "criterion": "entropy",
+      "ccp_alpha": 0.0005
+    },
+    "best_cv_roc_auc": 0.9555727554179567
+  },
+  "Random Forest": {
+    "best_params": {
+      "n_estimators": 500,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt",
+      "max_depth": null,
+      "class_weight": "balanced_subsample",
+      "bootstrap": false
+    },
+    "best_cv_roc_auc": 0.9898864809081527
+  },
+  "XGBoost": {
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 1,
+      "n_estimators": 200,
+      "min_child_weight": 1,
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "gamma": 0.1,
+      "colsample_bytree": 0.7
+    },
+    "best_cv_roc_auc": 0.9942208462332301
+  }
+}
